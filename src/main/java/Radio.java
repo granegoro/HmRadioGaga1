@@ -13,9 +13,8 @@ public class Radio {
         if (newCurrentStation > 9) {
             return;
         }
-        if (newCurrentStation >= 0 & newCurrentStation <= 9) {
             currentStation = newCurrentStation;
-        }
+
 
     }
 
@@ -50,9 +49,7 @@ public class Radio {
         if (newCurrentVolume < 0) {
             return;
         }
-        if (newCurrentVolume >= 0 & newCurrentVolume <= 10) {
             currentVolume = newCurrentVolume;
-        }
     }
 
     public void increaseVolume() {
