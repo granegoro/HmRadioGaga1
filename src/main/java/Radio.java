@@ -1,6 +1,6 @@
 public class Radio {
 
-    private int stationsCount = 10;
+    private int stationsCount = 30;
 
     private int maxVolume = 100;
     private int minVolume = 0;
