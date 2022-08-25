@@ -14,8 +14,6 @@ public class Radio {
             return;
         }
         currentStation = newCurrentStation;
-
-
     }
 
     public void nextStation() {
